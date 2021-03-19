@@ -245,6 +245,9 @@ input[type=submit]:hover {
 	background-repeat: no-repeat;
 	max-height: 400px;
 	padding: 50px 0;
+	position: relative; 
+	left: auto; 
+	box-sizing: border-box; 
 }
 
 .testemonial-text {
@@ -353,49 +356,18 @@ footer {
 
 .terms {
 	float: right;
+	margin-right: 120px;
 }
 
 .terms li {
 	font-size: 14px;
     color: #7F9CAD;
+	display: block;
+    height: 14px;
 }
 
 .rights {
 	margin-left: 90px;
 }
 
-#logo-facebook {
-    display: block;
-    width: 14px;
-    height: 14px;
-    background: url(../img/facebook-logo.png)  no-repeat right;
-}
-
-#logo-twitter {
-    display: block;
-    width: 14px;
-    height: 14px;
-    background: url(../img/twitter-logo.png) 0 15px;
-}
-
-#logo-instagram {
-    display: block;
-    width: 14px;
-    height: 14px;
-    background: url(../img/instagram-logo.png) 252px 15px;
-}
-
-#logo-youtube {
-    display: block;
-    width: 14px;
-    height: 14px;
-    background: url(../img/youtube-logo.png) 332px 15px;
-}
-
-#logo-linkedin {
-    display: block;
-    width: 14px;
-    height: 14px;
-    background: url(../img/linkedin-logo.svg) 313px 15px;
-}
 	
