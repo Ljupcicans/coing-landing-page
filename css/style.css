@@ -206,7 +206,7 @@ input[type=submit]:hover {
 #item-container {
 	display: flex;
 	justify-content: space-evenly;
-	background-color: var(--lightenBlue);
+	/* background-color: var(--lightenBlue); */
 	text-align: center;
 	padding: 60px 0;
 }
@@ -236,6 +236,42 @@ input[type=submit]:hover {
 
 .image .container p{
 	line-height: 20px;
+}
+
+.testemonial {
+	background-image: url(../img/quote.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	max-height: 400px;
+	padding: 50px 0;
+}
+
+.testemonial-text {
+	text-align: center;
+	font-weight: 500;
+	font-style: italic;
+	line-height: 25px;
+	font-size: 18px;
+	align-items: center;
+	padding: 50px;
+}
+
+.testemonial-text button {
+	align-items: center;
+	padding: 12px 0;
+	border: 0.5px solid var(--blue);
+	border-radius: 2px;
+	text-transform: uppercase;
+	color: var(--blue);
+	background-color: var(--lightenBlue);
+	font-size: 14px;
+	width: 20%;
+}
+	
+.testemonial-text button:hover {
+	background-color: var(--blue);
+	color: white;
 }
 
 .action-section {
@@ -328,35 +364,35 @@ footer {
 	margin-left: 90px;
 }
 
-.terms #logo-facebook {
+#logo-facebook {
     display: block;
     width: 14px;
     height: 14px;
-    background: url(../img/facebook-logo.png)  76px 15px;
+    background: url(../img/facebook-logo.png)  no-repeat right;
 }
 
-.terms #logo-twitter {
+#logo-twitter {
     display: block;
     width: 14px;
     height: 14px;
     background: url(../img/twitter-logo.png) 0 15px;
 }
 
-.terms #logo-instagram {
+#logo-instagram {
     display: block;
     width: 14px;
     height: 14px;
     background: url(../img/instagram-logo.png) 252px 15px;
 }
 
-.terms #logo-youtube {
+#logo-youtube {
     display: block;
     width: 14px;
     height: 14px;
     background: url(../img/youtube-logo.png) 332px 15px;
 }
 
-.terms #logo-linkedin {
+#logo-linkedin {
     display: block;
     width: 14px;
     height: 14px;
