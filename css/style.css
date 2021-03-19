@@ -228,6 +228,18 @@ input[type=submit]:hover {
 	font-weight: 500;
 }
 
+.image .image-ss {
+	background-size: contain;
+	background-image: url(../img/features-reports-screenshot.svg);
+	max-width: 100%;
+
+	
+}
+
+.image .image-ss img {
+	max-width: 100%;
+}
+
 .image .container h2{
 	font-size: 2rem;
 	padding: 20px 0;
@@ -370,4 +382,151 @@ footer {
 	margin-left: 90px;
 }
 
+/* Responsive*/
+
+@media only screen and (max-width: 768px) {
+	.container {
+		margin: 0 auto;
+		max-width: 768px;
+	}
+	input[type=text], select, textarea {
+		width: 100%;
+		padding: 10px;
+		margin-top: 6px;
+		margin-bottom: 10px;
+		resize: vertical;
+	}
 	
+	input[type=submit] {
+		padding: 10px 20px;
+		width: 100%;
+		font-size: 15px;
+	}
+
+	.form h2 {
+		font-size: 15px;
+	}
+
+	.form h5 {
+		font-size: 12px;
+	}
+	
+	.image-ss {
+		background-size: contain;
+		background-image: url(../img/features-reports-screenshot.svg);
+		max-width: 50%;
+	}
+
+	.action-section button {
+		width: 50%;
+	}
+
+	.rights-and-terms .rights {
+		margin-left: 30px;
+	}
+
+	.terms {
+		margin-right: 70px;
+	}
+
+	.banner .container h1 {
+		font-size: 3rem;
+	}
+	
+	.banner .container h4 {
+		font-size: 1rem;
+	}
+
+	form {
+		padding: 10px;
+	}
+	
+	.form h2 {
+		padding: 10px 0 5px 0;
+	}
+	
+	form h5{
+		padding: 0 0 10px 0;
+	}
+
+	.report_text p {
+		font-size: 11px;
+	}
+
+	.testemonial {
+		padding: 0;
+	}
+}	
+
+@media only screen and (max-width: 600px) {
+	.banner .container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.report_text {
+		padding: 10px 0;
+		position: relative;
+		text-align: center;
+	}
+	.form h5 {
+		padding: 0 0 10px 40px;
+	}
+	
+	#item-container {
+		flex-direction: column;
+	}
+
+	#item-container .item {
+		padding-bottom: 40px;
+	}
+
+	.testemonial-text button {
+		width: 50%;
+	}
+
+	.image .image-ss {
+		background-size: contain;
+		background-image: url(../img/features-reports-screenshot.svg);
+		max-width: 100%;
+	}
+
+	.image .container h2 {
+		padding-top: 70px;
+	}
+
+	.footer-siteLinks {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.item-product {
+		padding: 20px;
+	}
+
+	.item-solution {
+		padding: 20px;
+	}
+
+	.item-company {
+		padding: 20px;
+	}
+
+	.item-support {
+		padding: 20px;
+	}
+
+	.rights {
+		flex-direction: column;
+		align-items: center;
+		padding-right: 0;
+	}
+
+	.terms {
+		margin-right: 150px;
+	}
+
+	.container .footer-logo .logSug {
+		padding: 10px 40px;
+	}
+}
